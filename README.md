@@ -58,6 +58,8 @@ Deployment, and Setup:
 5. Follow the prompts to set up and deploy the application.
 
 The deployed application is available at: "\C:\Users\Rashmi M\Downloads\inventorymanegry.html"
+
+
 Application Structure:
 
 1.  HTML (`index.html`):
