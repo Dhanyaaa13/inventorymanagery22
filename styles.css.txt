@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+  font-family: sans-serif; /* Sets the default font for the entire page to sans-serif */
+  margin: 20px; /* Adds a 20px margin around the body content */
+}
+
+table {
+  width: 100%; /* Makes the table occupy the full width of its container */
+  border-collapse: collapse; /* Collapses table borders into a single border */
+  margin-top: 20px; /* Adds a 20px top margin to separate the table from other content */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Adds a 1px solid light gray border to table headers and cells */
+  padding: 8px; /* Adds 8px padding inside table headers and cells */
+  text-align: left; /* Aligns text in table headers and cells to the left */
+}
+
+th {
+  background-color: #f2f2f2; /* Sets a light gray background color for table headers */
+}
+
+#addItemForm {
+  margin-bottom: 20px; /* Adds a 20px bottom margin to the add item form */
+  display: flex; /* Uses flexbox layout for the form */
+  flex-direction: column; /* Arranges form elements in a column */
+  max-width: 300px; /* Limits the form's width to 300px */
+}
+
+#addItemForm input, #addItemForm select, #addItemForm button {
+  margin-bottom: 10px; /* Adds a 10px bottom margin to form input, select, and button elements */
+  padding: 8px; /* Adds 8px padding inside form input, select, and button elements */
+}
+
+#analytics {
+  display: grid; /* Uses CSS Grid layout for the analytics section */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid layout with columns that adjust based on content and screen size */
+  gap: 20px; /* Adds a 20px gap between grid items */
+  margin-top: 20px; /* Adds a 20px top margin to separate the analytics section */
+}
+
+.analytics-item {
+  border: 1px solid #ddd; /* Adds a 1px solid light gray border to analytics items */
+  padding: 15px; /* Adds 15px padding inside analytics items */
+}
+
+.alert {
+  color: red; /* Sets the text color of alert messages to red */
+}
