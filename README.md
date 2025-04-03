@@ -36,6 +36,7 @@ Features:
 4.  localStorage:
     * Used for simple data persistence in the user's browser.
 
+
 Prerequisites:
 
 * A web browser (Chrome, Firefox, Safari, Edge, etc.).
@@ -54,7 +55,9 @@ Deployment, and Setup:
     * For wider access, you can deploy the `index.html` file (and `styles.css` if you created it) to a web server (e.g., using GitHub Pages, Netlify, or a traditional web hosting service).
 4.  Running:
     * Once the html file is opened in a browser, the application is running.
+5. Follow the prompts to set up and deploy the application.
 
+The deployed application is available at: file:///C:/Users/Rashmi%20M/Downloads/inventorymanegry.html
 Application Structure:
 
 1.  HTML (`index.html`):
